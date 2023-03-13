@@ -212,7 +212,7 @@ main {
 
 #back-to-top svg path {
     fill: #f2f2f2;
-  }
+}
 
 /* Footer styles */
 footer {
@@ -244,7 +244,7 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
-    header{
+    header {
         padding: 15px;
     }
 
@@ -262,16 +262,15 @@ footer a {
         padding-right: 0;
     }
 
-    .header-right a{
+    .header-right a {
         font-size: 20px;
     }
-    
+
     .header-right li:not(:last-child) {
         margin-right: 15px;
     }
 
-    .back-to-top-container {
+    #back-to-top-container {
         display: none;
     }
 }
-  
