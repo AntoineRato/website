@@ -244,35 +244,6 @@ footer a {
 }
 
 @media only screen and (max-width: 768px) {
-    .exploreContent {
-        width: 55%;
-        height: 65%;
-        top: 15vh;
-    }
-
-    .welcome h2 {
-        font-size: 55px;
-        letter-spacing: 2px;
-        font-weight: 700;
-        color: #ffffff;
-        margin-bottom: 30px;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: left;
-    }
-    
-    .welcome p {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #d9d9d9;
-        margin-bottom: 30px;
-        margin-left: 5%;
-        margin-right: 5%;
-        text-align: left;
-        letter-spacing: 1px;
-    }
-
     header{
         padding: 15px;
     }
