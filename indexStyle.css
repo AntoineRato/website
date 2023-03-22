@@ -201,8 +201,10 @@ section p {
 }
 
 .explore-content {
+    z-index: 9999;
     position: absolute;
     background-color: #1e88e5;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
     top: -20%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -234,6 +236,7 @@ section p {
 }
 
 .app-images img {
+    z-index: 0;
     display: inline-block;
     width: 230px;
     border-radius: 22.5%;
@@ -247,7 +250,7 @@ section p {
     .explore-content {
         width: 55%;
         height: 65%;
-        top: 15vh;
+        top: 10vh;
     }
 
     .welcome h2 {
@@ -299,7 +302,12 @@ section p {
         margin-right: 15px;
     }
 
+    .app-images-section {
+        height: 514vh;
+    }
+
     .app-images img {
         margin: 20px;
+        opacity: 0.5;
     }
 }
