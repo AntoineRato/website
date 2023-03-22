@@ -98,6 +98,17 @@ main {
     padding: 40px 0;
 }
 
+.blog div:first-of-type {
+    margin-bottom: 60px;
+}
+
+.blog .blog-introduction p {
+    color: #e0e0e0;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 .blog h2 {
     font-size: 36px;
     font-weight: 700;
