@@ -28,13 +28,13 @@
         {
             explore.style.transform = `translateY(0)`;
         }
-        if(window.scrollY >= offset && window.scrollY <= offset * 2)
+        if(window.scrollY >= offset && window.scrollY <= offset * 10)
         {
             explore.style.transform = `translateY(${window.scrollY - offset}px)`;
         }
-        if(window.scrollY > offset * 2)
+        if(window.scrollY > offset * 10)
         {
-            explore.style.transform = `translateY(${offset}px)`;
+            explore.style.transform = `translateY(${offset*9}px)`;
         }
     }
 
