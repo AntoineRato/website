@@ -234,6 +234,11 @@ img {
     text-align: center;
 }
 
+#leftTurnGameplay{
+    width: auto;
+    height: 480px;
+}
+
 .blog-post .post-date {
     font-size: 17px;
     font-weight: 400;
