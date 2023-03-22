@@ -298,4 +298,8 @@ section p {
     .header-right li:not(:last-child) {
         margin-right: 15px;
     }
+
+    .app-images img {
+        margin: 20px;
+    }
 }
