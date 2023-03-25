@@ -147,7 +147,7 @@ main {
 .post-block .post-description {
     font-size: 18px;
     margin-left: 20px;
-    margin-right: 100px;
+    margin-right: 10%;
 }
 
 .post-block .post-description:not(:last-child) {
